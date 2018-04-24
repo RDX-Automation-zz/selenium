@@ -15,6 +15,7 @@ public class Solution {
         for(int a_i=0; a_i < n; a_i++){
             a[a_i] = in.nextInt();
         }
+        //Rotation code begins here
         int[] rotated = new int[n];
         if(n!=k && k>n){k=k%n;}
         for(int a0 = 0; a0 < q; a0++){
